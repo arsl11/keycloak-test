@@ -9,12 +9,7 @@ export const config = {
     Keycloak({
       clientId: process.env.KEYCLOAK_CLIENT_ID ?? 'client', 
       clientSecret: process.env.KEYCLOAK_CLIENT_SECRET ?? '',
-      issuer: process.env.KEYCLOAK_ISSUER,
-      authorization: {
-        params: {
-          scope: 'openid',
-        }
-      } 
+      issuer: process.env.KEYCLOAK_ISSUER, 
     }),
   ],
 } satisfies NextAuthConfig
