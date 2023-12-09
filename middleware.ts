@@ -1,9 +1,9 @@
-import { withAuth } from "next-auth/middleware"
+import { withAuth } from "next-auth/middleware";
 
 export default withAuth({
   pages: {
-    signIn: `/custom-signin`
-  }
-})
+    signIn: `/custom-signin`,
+  },
+});
 
-export const config = { matcher: ["/admin", "/me"] }
+export const config = { matcher: ["/admin", "/me"] };
