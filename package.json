@@ -10,9 +10,12 @@
     "next": "latest",
     "next-auth": "latest",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "sass": "^1.69.5"
   },
   "devDependencies": {
+    "@gravity-ui/chartkit": "^4.12.0",
+    "@gravity-ui/uikit": "^5.24.0",
     "@types/node": "^18.16.2",
     "@types/react": "^18.2.0",
     "typescript": "5.2.2"

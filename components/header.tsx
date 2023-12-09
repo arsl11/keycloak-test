@@ -87,7 +87,10 @@ export default function Header() {
             <Link href="/me">Me</Link>
           </li>
           <li className={styles.navItem}>
-            <Link href="/custom-signin">Custom signin</Link>
+            <Link href="/custom-signin">Custom Signin</Link>
+          </li>
+          <li className={styles.navItem}>
+            <Link href="/chartkit">ChartKit</Link>
           </li>
         </ul>
       </nav>
